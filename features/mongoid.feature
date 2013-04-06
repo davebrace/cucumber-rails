@@ -10,8 +10,8 @@ Feature: Mongoid
       """
       gem "cucumber-rails", :group => :test, :path => '../../..'
       gem "capybara", :group => :test
-      gem "database_cleaner", ">= 1.0.0.RC1", :group => :test
-      gem "mongoid", git: "git://github.com/mongoid/mongoid.git", :group => :test
+      gem "database_cleaner", :group => :test
+      gem "mongoid", :group => :test
       gem "bson_ext", :group => :test
 
       """
